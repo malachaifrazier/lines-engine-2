@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.0
+- Gem Version back to 0.1.0
+- Started making the Gem my own
 ## 1.2.6.1
 - Typo inside div tag corrected
 
@@ -26,7 +29,7 @@
 
 - Fixed compatibility with Rails 5
 
-## 1.2 
+## 1.2
 
 - Added support for Rails 5
 
@@ -79,7 +82,7 @@
 
 ## 0.6
 
-- Users are now able to reset their passwords. 
+- Users are now able to reset their passwords.
 - Default styles updated. If you want to use the new version, you have to overwrite your existing lines css files.
 - new generator +rails g lines:copy_styles+ added to update stylesheets from newer gem versions
 - IMPORTANT: please adjust your +config/lines_config.yml+ and add +from_email+ according to the following example:
@@ -143,7 +146,7 @@
 - Fonts are now referenced by unified names and font attributes ('Ubuntu' instead of 'UbuntuBold' and 'UbuntuItalic')
 
 
-## 0.3 
+## 0.3
 
 - Heavily simplified CSS and markup for articles
 
