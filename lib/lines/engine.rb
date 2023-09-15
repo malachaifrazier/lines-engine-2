@@ -39,7 +39,7 @@ module Lines
     end
 
     # Disable error wrapper around form fields
-    config.action_view.field_error_proc = Proc.new { |html_tag, instance| 
+    config.action_view.field_error_proc = Proc.new { |html_tag, instance|
       class_attr_index = html_tag.index 'class="'
 
       if class_attr_index
@@ -50,8 +50,8 @@ module Lines
     }
 
     # Load locale files for I18n module
-    config.before_initialize do   
-      I18n.enforce_available_locales = false                                                   
+    config.before_initialize do
+      I18n.enforce_available_locales = false
       config.i18n.load_path += Dir["#{config.root}/config/locales/**/*.yml"]
     end
 

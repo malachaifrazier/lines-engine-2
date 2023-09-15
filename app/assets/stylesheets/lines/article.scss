@@ -31,7 +31,7 @@
       line-height: 120%;
       color: $black;
       a { color: $black; }
-      a:hover { color:$red; }        
+      a:hover { color:$red; }
     }
     h2 {
       font-size: 1.5em;
@@ -59,7 +59,7 @@
     font-size: 1.375em;
     line-height: 1.8em;
     font-weight: 400;
-  } 
+  }
 
   .more-link {
     display: block;
@@ -80,13 +80,13 @@
       text-align:center;
       &:hover { background-color: darken($white, 10%); }
     }
-  }      
+  }
 
 
   .article_content {
     line-height: 1.9em;
 
-    a { 
+    a {
       border-bottom: 1px solid $grey;
       &:hover { color: $red; border-bottom: 1px solid $red; }
     }
@@ -97,32 +97,32 @@
 
     h1 { font-size: 2.5em; }
     h2 { font-size: 2.0em;}
-    h3 { 
+    h3 {
       font-size: 1.5em;
-      color: $red; 
-      margin-bottom: 1.0em; 
+      color: $red;
+      margin-bottom: 1.0em;
       a { color: $red; }
       a:hover { color: $black; border-bottom: 1px solid $black; }
     }
     h4 { font-size: 1.25em; text-transform: uppercase;  }
     h5 { font-size: 1.25em; }
-    h6 { 
-      font-size: 1.25em; color: $grey; 
+    h6 {
+      font-size: 1.25em; color: $grey;
       a { color: $grey; }
     }
 
-    p { 
+    p {
       font-size: 1.125em;
-      display: block; 
+      display: block;
       a { color: $black; }
       a:hover { color: $red; }
     }
-  
+
 
     img { display: block; margin: 0 auto; }
 
     br { display: block; margin: 0; padding: 0;}
-    
+
     ul, ol {
       list-style: none;
       font-size: 1.125rem;
@@ -224,7 +224,7 @@
       th, td {
         border: 1px solid $grey;
         font-family: $SourceSansPro;
-        line-height: 120%;        
+        line-height: 120%;
         font-size: 1.25em;
         color: $black;
         padding: 0.6em;
@@ -280,7 +280,7 @@
         height: 32px;
         border-radius: 50%;
         background: url('/assets/gplus.svg') $red center center no-repeat;
-        background-size: 80% auto;  
+        background-size: 80% auto;
       }
       &:hover { color: lighten($grey, 10%); }
     }
