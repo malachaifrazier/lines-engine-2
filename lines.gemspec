@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'redcarpet', '>= 3.3.3'
   s.add_runtime_dependency 'jquery-rails', '< 7', '>= 3.1.0'
   s.add_runtime_dependency 'acts-as-taggable-on', '>= 3.5'
-  s.add_runtime_dependency 'bcrypt', '~> 3.1.0', '>= 3.1.0'
   s.add_runtime_dependency 'sitemap_generator', '~> 5.0.0', '>= 5.0.5'
   s.add_runtime_dependency 'jquery-fileupload-rails', '>= 0.4.1'
   s.add_runtime_dependency 'jquery-ui-rails', '>= 5.0.0'
@@ -41,14 +40,16 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'friendly_id', '>= 5.1.0'
   s.add_runtime_dependency 'rails3-jquery-autocomplete', '>= 1.0.11'
   s.add_runtime_dependency 'meta-tags', '>= 2.14.0'
-  s.add_runtime_dependency 'bcrypt-ruby', '>= 3.0.0'
+
+  s.add_runtime_dependency 'bcrypt', '~> 3.1', '>= 3.1.19'
+
   s.add_runtime_dependency 'i18n', '>= 0.7.0'
   s.add_runtime_dependency 'sprockets-rails', '< 4'
-  s.add_runtime_dependency 'rails', ['>= 3', '< 8']
+  s.add_runtime_dependency 'rails', ['>= 6', '< 8']
 
   s.add_development_dependency 'mysql2'
-  s.add_development_dependency 'rspec-rails', '~> 2.14.2', '< 3'
-  s.add_development_dependency 'rspec', '~> 2.14.1', '< 3'
+  s.add_development_dependency 'rspec-rails', '~> 6.0.3', '< 7'
+  s.add_development_dependency 'rspec', '~> 3.12.0', '< 4'
 
   s.files         = `git ls-files`.split("\n").select{ |file_name| !(file_name =~ /^spec/) }
   s.test_files    = `git ls-files`.split("\n").select{ |file_name| (file_name =~ /^spec/) }

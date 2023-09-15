@@ -30,14 +30,14 @@ group :development, :test do
   gem 'factory_girl_rails', require: false
   gem 'railroady'
   gem 'thor'
-  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :test do
   gem 'faker'
   gem 'capybara'
   gem 'shoulda-matchers'
-  gem 'guard-rspec', '= 4.7.3'
-  gem 'rb-inotify', '~> 0.10.1'
+  # gem 'guard-rspec', '= 4.7.3'
+  # gem 'rb-inotify', '~> 0.10.1'
   gem 'launchy'
 end
